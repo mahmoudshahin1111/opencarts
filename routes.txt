@@ -1,0 +1,10 @@
++--------+----------+---------------+-----------+------------------------------------------------+---------------------------------------------------------------+
+| Domain | Method   | URI           | Name      | Action                                         | Middleware                                                    |
++--------+----------+---------------+-----------+------------------------------------------------+---------------------------------------------------------------+
+|        | GET|HEAD | /             | web.front | App\Http\Controllers\web\HomeController@index  | web,auth.check.guard                                          |
+|        | GET|HEAD | api/auth_test |           | Closure                                        | api,auth.check.guard,auth:store_api,supplier_api,customer_api |
+|        | POST     | api/login     | api.login | App\Http\Controllers\api\LoginController@login | api,auth.check.guard                                          |
+|        | GET|HEAD | auth_test     |           | Closure                                        | web,auth.check.guard,auth:store,supplier,customer             |
+|        | GET|HEAD | login         | web.login | App\Http\Controllers\web\LoginController@index | web,auth.check.guard                                          |
+|        | POST     | login         |           | App\Http\Controllers\web\LoginController@login | web,auth.check.guard                                          |
++--------+----------+---------------+-----------+------------------------------------------------+---------------------------------------------------------------+
