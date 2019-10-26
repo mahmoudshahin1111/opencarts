@@ -1,6 +1,6 @@
-@extends('layout.admin_in_layout.layout')
+@extends('layout.admin.layout')
 @push('content')
-    <p>Store Dash Board</p>
+    <p>{{_i('text.admin.stores.about')}}</p>
 @endpush
 @push('js')
 

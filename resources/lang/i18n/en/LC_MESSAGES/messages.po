@@ -1,0 +1,158 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MultilanguageLaravelApplication\n"
+"POT-Creation-Date: 2019-10-26 09:47+0200\n"
+"PO-Revision-Date: 2019-10-26 09:48+0200\n"
+"Last-Translator: James Translator <james@translations.colm>\n"
+"Language-Team: James Translator <james@translations.colm>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-KeywordsList: _;__;_i;_s;gettext;_n:1,2;ngettext:1,2;dgettext:2\n"
+"X-Poedit-Basepath: ../../../../../app\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: Http\n"
+"X-Poedit-SearchPath-1: ../resources/views\n"
+"X-Poedit-SearchPath-2: Console\n"
+"X-Poedit-SearchPath-3: ../storage/framework/messages\n"
+
+#: ../storage/framework/messages/0860b19c9c279b7243a679f9856b37e9097186aa.php.php:7
+#: ../storage/framework/messages/75047161b6f91ba59cfbbba4d922b309d1aa3acd.php.php:6
+msgid "page.title"
+msgstr "Open Cart"
+
+#: ../storage/framework/messages/13ca9069ffdad9461a3076cc9d7f97278a86b543.php.php:2
+msgid "text.admin.stores.about"
+msgstr "About Store"
+
+#: ../storage/framework/messages/276cd64f0a9e22a1bc9395586565b3d075949bff.php.php:9
+#: ../storage/framework/messages/276cd64f0a9e22a1bc9395586565b3d075949bff.php.php:89
+msgid "Activated"
+msgstr ""
+
+#: ../storage/framework/messages/276cd64f0a9e22a1bc9395586565b3d075949bff.php.php:10
+#: ../storage/framework/messages/276cd64f0a9e22a1bc9395586565b3d075949bff.php.php:91
+msgid "DeActivated"
+msgstr ""
+
+#: ../storage/framework/messages/276cd64f0a9e22a1bc9395586565b3d075949bff.php.php:17
+msgid "Name"
+msgstr "Name"
+
+#: ../storage/framework/messages/276cd64f0a9e22a1bc9395586565b3d075949bff.php.php:21
+msgid "Description"
+msgstr "Description"
+
+#: ../storage/framework/messages/2bb1495a01f99631e03f55f9385f239e9d22c0d3.php.php:7
+msgid "Open Cart"
+msgstr "Open Cart"
+
+#: ../storage/framework/messages/2bb1495a01f99631e03f55f9385f239e9d22c0d3.php.php:16
+msgid "Store Managment"
+msgstr "Store Management"
+
+#: ../storage/framework/messages/2bb1495a01f99631e03f55f9385f239e9d22c0d3.php.php:20
+msgid "Option Categories"
+msgstr ""
+
+#: ../storage/framework/messages/2bb1495a01f99631e03f55f9385f239e9d22c0d3.php.php:21
+msgid "Products"
+msgstr ""
+
+#: ../storage/framework/messages/2bb1495a01f99631e03f55f9385f239e9d22c0d3.php.php:22
+msgid "Packages"
+msgstr ""
+
+#: ../storage/framework/messages/2bb1495a01f99631e03f55f9385f239e9d22c0d3.php.php:25
+msgid "About Store"
+msgstr ""
+
+#: ../storage/framework/messages/2bb1495a01f99631e03f55f9385f239e9d22c0d3.php.php:29
+msgid "Help"
+msgstr ""
+
+#: ../storage/framework/messages/2bb1495a01f99631e03f55f9385f239e9d22c0d3.php.php:33
+msgid "Profile"
+msgstr ""
+
+#: ../storage/framework/messages/2bb1495a01f99631e03f55f9385f239e9d22c0d3.php.php:34
+msgid "Store Settings"
+msgstr ""
+
+#: ../storage/framework/messages/2bb1495a01f99631e03f55f9385f239e9d22c0d3.php.php:36
+msgid "LogOut"
+msgstr ""
+
+#: ../storage/framework/messages/3c82e6392bd07068d38ba1ab6ea1e5bc788faad6.php.php:6
+msgid "text.admin.stores.select_store_title"
+msgstr "Select Store"
+
+#: ../storage/framework/messages/3c82e6392bd07068d38ba1ab6ea1e5bc788faad6.php.php:23
+msgid "text.admin.stores.open"
+msgstr "Opened"
+
+#: ../storage/framework/messages/3c82e6392bd07068d38ba1ab6ea1e5bc788faad6.php.php:29
+msgid "text.admin.stores.close"
+msgstr "Closed"
+
+#: ../storage/framework/messages/3c82e6392bd07068d38ba1ab6ea1e5bc788faad6.php.php:34
+msgid "text.admin.stores.store_name"
+msgstr "Store Name"
+
+#: ../storage/framework/messages/3c82e6392bd07068d38ba1ab6ea1e5bc788faad6.php.php:40
+msgid "admin.layout.title"
+msgstr "Tile"
+
+#: ../storage/framework/messages/3c82e6392bd07068d38ba1ab6ea1e5bc788faad6.php.php:43
+msgid "text.admin.stores.created_at"
+msgstr "Created At"
+
+#: ../storage/framework/messages/3c82e6392bd07068d38ba1ab6ea1e5bc788faad6.php.php:54
+msgid "text.admin.stores.select_store"
+msgstr "Select"
+
+#: ../storage/framework/messages/d353259f6eac19c908775a9aec54353f519c0854.php.php:11
+msgid "Open Carts"
+msgstr "Open Cart"
+
+#: ../storage/framework/messages/e99faf9df59ef9e06cbcfe1a46c1cf8dfec14e27.php.php:7
+msgid "text.admin.layout.app_title"
+msgstr "Open Cart"
+
+#: ../storage/framework/messages/f8f0190c4815b532d3003154ab9f2596fa461277.php.php:9
+msgid "Sign in to start your session"
+msgstr ""
+
+#: ../storage/framework/messages/f8f0190c4815b532d3003154ab9f2596fa461277.php.php:23
+msgid "Email"
+msgstr "Email"
+
+#: ../storage/framework/messages/f8f0190c4815b532d3003154ab9f2596fa461277.php.php:32
+msgid "Password"
+msgstr "Password"
+
+#: ../storage/framework/messages/f8f0190c4815b532d3003154ab9f2596fa461277.php.php:44
+msgid "Remember Me"
+msgstr ""
+
+#: ../storage/framework/messages/f8f0190c4815b532d3003154ab9f2596fa461277.php.php:51
+msgid "Sign In"
+msgstr ""
+
+#: ../storage/framework/messages/f8f0190c4815b532d3003154ab9f2596fa461277.php.php:60
+msgid "Sign in using Facebook"
+msgstr ""
+
+#: ../storage/framework/messages/f8f0190c4815b532d3003154ab9f2596fa461277.php.php:64
+msgid "Sign in using Google+"
+msgstr ""
+
+#: ../storage/framework/messages/f8f0190c4815b532d3003154ab9f2596fa461277.php.php:71
+msgid "I forgot my password"
+msgstr ""
+
+#: ../storage/framework/messages/f8f0190c4815b532d3003154ab9f2596fa461277.php.php:74
+msgid "Register a new membership"
+msgstr ""

@@ -16,7 +16,7 @@ return [
     |   'database'      Use the database as the exclusive source for language entries.
     |   'files'         Use files as the exclusive source for language entries [Laravel's default].
      */
-    'source'            => env('TRANSLATION_SOURCE', 'files'),
+    'source'            => env('TRANSLATION_SOURCE', 'database'),
 
     // In case the files source is selected, please enter here the supported locales for your app.
     // Ex: ['en', 'es', 'fr']
@@ -34,7 +34,7 @@ return [
     |
      */
     'cache'             => [
-        'enabled' => env('TRANSLATION_CACHE_ENABLED', true),
+        'enabled' => env('TRANSLATION_CACHE_ENABLED', false),
         'timeout' => env('TRANSLATION_CACHE_TIMEOUT', 60),
         'suffix'  => env('TRANSLATION_CACHE_SUFFIX', 'translation'),
     ],

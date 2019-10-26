@@ -12,10 +12,11 @@ class Codes extends Model
      * @var string
      */
     protected $table = 'codes';
-    static function Codes(){
-        return [
-            'NP'=>'NP',
-            'STORE_IMAGE_FILE_FILES'=>'SIFF',
-        ];
+    const CODES =[
+        'IMAGE_FILE'=>'FILE_IMG',
+        'COLOR'=>'COLOR'
+    ];
+    static function Codes($index){
+       return static::CODES[$index];
     }
 }

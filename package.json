@@ -21,9 +21,12 @@
     },
     "dependencies": {
         "boostrap": "^2.0.0",
+        "datatables": "^1.10.18",
         "ionicons": "^4.6.3",
         "jquery": "^3.4.1",
         "moment": "^2.24.0",
-        "vue": "^2.6.10"
+        "vue": "^2.6.10",
+        "vue-toastr": "^2.1.2",
+        "vue-upload-image": "^1.1.5"
     }
 }
