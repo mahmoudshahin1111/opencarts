@@ -78,6 +78,7 @@ class CategoryOptionsController extends Controller
     public function destroy($store_id, $id)
     {
         $option_category = OptionCategory::findOrFail($id);
+        $option_category->options()->delete();
         $option_category->delete();
         return $option_category;
     }
