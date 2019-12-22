@@ -8,6 +8,7 @@ use App\Traits\HasCode;
 use App\Traits\HasStore;
 use App\Traits\ScopeWhereStore;
 use App\models\pivots\CategoryOption;
+use Exception;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Support\Facades\Storage;
@@ -15,7 +16,6 @@ use Illuminate\Support\Facades\Storage;
 class OptionCategory extends Model
 {
     use ScopeWhereStore;
-    use HasCode;
     use HasStore;
     use SoftDeletes;
     use \Waavi\Translation\Traits\Translatable;
@@ -34,6 +34,24 @@ class OptionCategory extends Model
         'store',
         'image'
     ];
+    /**
+     * Get Kinds Codes
+     *
+     * @param string $code_name COLOR|NORMAL(defualt)
+     * @return string
+     */
+    public static function codes(string $code_name){
+        $CODES=[
+            'COLOR'=>Codes::Codes('COLOR'),
+            'IMAGE_FILE'=>Codes::Codes('IMAGE_FILE'),
+        ];
+        try{
+            return $CODES[$code_name];
+        }catch(Exception $e){
+            report($e);
+        }
+    }
+    /** Relations */
     public function options(){
         return $this->belongsToMany(Option::class,CategoryOption::class,'option_category_id','option_id');
     }
@@ -43,6 +61,12 @@ class OptionCategory extends Model
     public function image(){
         return $this->morphOne(File::class,'fileable');
     }
+    /**
+     * Defualt Code Set
+     *
+     * @param [type] $value New Value [NORMAL](defualt)
+     * @return void
+     */
     public function setCodeAttribute($value){
         if($value){
             return $this->attributes['code'] = $value;

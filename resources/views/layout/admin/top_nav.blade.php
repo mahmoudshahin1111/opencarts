@@ -18,6 +18,7 @@
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="{{route('option_category.index')}}">{{_i('Option Categories')}}</a>
+                <a class="dropdown-item" href="{{route('product_category.index')}}">{{_i('Product Categoryies')}}</a>
                     <a class="dropdown-item" href="#">{{_i('Products')}}</a>
                     <a class="dropdown-item" href="#">{{_i('Packages')}}</a>
             </li>
@@ -61,12 +62,12 @@
         </form>
 
         <!-- Right navbar links -->
-        <ul class="navbar-nav ml-auto">
+        <ul id="nav_notification" class="navbar-nav ml-auto">
             <!-- Messages Dropdown Menu -->
             <li class="nav-item dropdown">
                 <a class="nav-link" data-toggle="dropdown" href="#">
                     <i class="fas fa-comments"></i>
-                    <span class="badge badge-danger navbar-badge">3</span>
+                <span class="badge badge-danger navbar-badge">@{{item_action}}</span>
                 </a>
                 <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
                     <a href="#" class="dropdown-item">

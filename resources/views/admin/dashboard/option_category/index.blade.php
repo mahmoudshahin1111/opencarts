@@ -178,7 +178,7 @@
                 this.errors = {};
             },
             newOption:function(){
-                this.category.options.push({name:"",description:"",price:""});
+                this.category.options.push({price:{value:0.01}});
             },
             deleteOption:function(option){
                 let index = this.category.options.indexOf(option);

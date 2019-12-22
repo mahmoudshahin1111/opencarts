@@ -1,0 +1,13 @@
+window.$ = window.jQuery = require('../styles/front/vendor/jquery/jquery-3.2.1.min');
+require('../styles/front/vendor/animsition/js/animsition');
+require('../styles/front/vendor/bootstrap/js/popper');
+require('../styles/front/vendor/bootstrap/js/tooltip');
+require('../styles/front/vendor/bootstrap/js/bootstrap');
+require('../styles/front/vendor/select2/select2');
+require('../styles/front/vendor/daterangepicker/moment');
+require('../styles/front/vendor/daterangepicker/daterangepicker');
+require('../styles/front/vendor/slick/slick');
+require('../styles/front/js/slick-custom');
+require('../styles/front/vendor/sweetalert/sweetalert.min');
+require('../styles/front/vendor/noui/nouislider');
+require('../styles/front/js/main');

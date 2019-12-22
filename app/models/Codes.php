@@ -14,9 +14,16 @@ class Codes extends Model
     protected $table = 'codes';
     const CODES =[
         'IMAGE_FILE'=>'FILE_IMG',
-        'COLOR'=>'COLOR'
+        'COLOR'=>'COLOR',
+        'SPECIAL'=>'SPECIAL_CATEGORY_PRODUCT'
     ];
-    static function Codes($index){
+    /**
+     * Get Code
+     *
+     * @param [type] $index
+     * @return void
+     */
+    public static function Codes($index){
        return static::CODES[$index];
     }
 }

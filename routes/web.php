@@ -12,7 +12,7 @@
 */
 
 use Illuminate\Support\Facades\Route;
-
+Broadcast::routes();
 Route::group(['prefix' => \UriLocalizer::localeFromRequest(),'namespace'=>'web','middleware'=>'auth.check.guard'], function () {
     Route::get('/' ,'HomeController@index')->name('web.front');
     Route::get('/logout','LoginController@logout')->name('web.logout');
@@ -30,9 +30,13 @@ Route::group(['prefix' => \UriLocalizer::localeFromRequest(),'namespace'=>'web',
         Route::group(['prefix'=>'store_controll_panel/{store_id}','middleware' => ['store.register']], function () {
             Route::get('/','StoreDashBoardController@index')->name('web.store.control_panel');
             /** Option Category */
-            Route::apiResource('/option_category','CategoryOptionsController');
             Route::post('/option_category/upload',['as'=>'web.option_category.upload','uses'=>'CategoryOptionsController@uploadImage']);
+            Route::apiResource('/option_category','CategoryOptionsController');
             /** End Option Category */
+            /** Product */
+            Route::post('/product_category/upload',['as'=>'web.product_category.upload','uses'=>'ProductCategoryController@uploadImage']);
+            Route::apiResource('/product_category','ProductCategoryController');
+            /** End Product */
         });
     });
 });
